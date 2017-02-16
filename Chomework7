@@ -1,0 +1,58 @@
+// ------------------------------------------------------------------------------------------
+// Name: Daniel Loscherblanco
+// Class: Java 1
+// Abstract: Homework 7. Classes
+// ------------------------------------------------------------------------------------------
+
+// ------------------------------------------------------------------------------------------
+// Imports
+// ------------------------------------------------------------------------------------------
+public class CHomework7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// --------------------------------------------------------------------------------
+		// Name: main
+		// Abstract: This is where the program runs. A program that involves
+		// 7 steps from the homework
+		// --------------------------------------------------------------------------------
+		
+		// Step1:
+		step1BasicClassAndEncapsulation();
+		
+		//Step2:
+		step2BoundaryCheckingAndBusinessLogic();
+
+	}
+		// --------------------------------------------------------------------------------
+		// Name: Step1BasicClassAndEncapsulation()
+		// Abstract: creating a class and showing how encapsulation works
+		// --------------------------------------------------------------------------------
+	public static void step1BasicClassAndEncapsulation()
+	{
+		CDog clsNapo=new CDog();
+		clsNapo.setName("Napolitanisimo");
+		clsNapo.setWeight(25.0f);
+		clsNapo.setAge(19.0f);
+		clsNapo.bark();
+		clsNapo.fetch();
+		
+	}
+	
+		// --------------------------------------------------------------------------------
+		// Name: Step2BoundaryCheckingAndBusinessLogic()
+		// Abstract: 
+		// --------------------------------------------------------------------------------
+	
+	public static void step2BoundaryCheckingAndBusinessLogic()
+	{
+		System.out.println("Step2: Boundary checking and centralized business logic");
+		System.out.println("--------------------------------------------------------");
+		testSetMethods();
+	}
+	public static void testSetMethods(String strCaption, String strName, float flAge, float flWeight)
+	{
+		CDog clsMydog=new CDog();
+		
+	}
+}
